@@ -1,2 +1,2 @@
 # [zcvaters](https://zcvaters.github.io/zcvaters/)
-* Very Early Stages :) *
+* Very Early Stages :)
