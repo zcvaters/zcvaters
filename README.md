@@ -1,4 +1,4 @@
 ## Click for my site
-# [zcvaters](https://zcvaters.github.io/zcvaters/index.html)
+# [zcvaters](https://www.zachvaters.com)
 
 * Very Early Stages :)
