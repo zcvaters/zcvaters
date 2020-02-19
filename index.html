@@ -8,15 +8,22 @@
 
         function pressed() {
             let text = document.getElementById("inp").value;
-            if (text === "red") {
+            if (text === "red" || text == "Red") {
                 document.getElementById("header").style.color = "red";
             }
-            else if (text === "green") {
+            else if (text === "green" || text == "Green") {
                 document.getElementById("header").style.color = "green";
             }
-            else if (text === "blue") {
+            else if (text === "blue" || text == "Blue") {
                 document.getElementById("header").style.color = "blue";
             }
+            else if (text === "purple" || text == "Purple") {
+                document.getElementById("header").style.color = "purple";
+            }
+            else if (text === "yellow" || text == "Yellow") {
+                document.getElementById("header").style.color = "yellow";
+            }
+
 
         }
     </script>
