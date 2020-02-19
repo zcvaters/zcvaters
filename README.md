@@ -1,4 +1,3 @@
-## Click for my site
-# [zcvaters](https://www.zachvaters.com)
+# [My Website](https://www.zachvaters.com)
 
-* Very Early Stages :)
+* Very Early Stage, nothing has been done.
