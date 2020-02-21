@@ -1,34 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>zachvaters</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <a class="button" href="https://github.com/zcvaters">
+            GitHub
+        </a>
+        <a class="button" href="https://heeeeeeeey.com/">
+            Coming Soon.
+        </a>
+        <script>
+            document.body.style.cursor = "none";
 
-<body style="background-color:black;">
-    <h1 id="header" style="color:maroon;">Hello</h1>
-    <p style="color:white;font-size:large;outline-style:solid;outline-color:blue;">Choose your color, Red, Green, blue, purple, yellow</p>
-    <input type="text" id="inp" />
-    <button onclick="pressed()">Click</button>
+            var cursor = document.createElement("div");
+            cursor.classList.add("cursor");
+            document.body.appendChild(cursor);
+
+            var follow = document.createElement("div");
+            follow.classList.add("follow");
+            document.body.appendChild(follow);
+
+            function move(obj, event) {
+                obj.style = "";
+                obj.style.top = event.clientY + "px";
+                obj.style.left = event.clientX + "px";
+            }
+
+            if (cursor) {
+                window.addEventListener("mousemove", function(event) {
+                    var e = event;
+                    var t = e.target;
+                    var f = follow;
+                    var c = cursor;
+
+                    if (t.tagName == "A") {
+                        c.style.backgroundColor = "transparent";
+
+                        f.style.top = t.offsetTop + "px";
+                        f.style.left = t.offsetLeft + "px";
+                        f.style.width = t.clientWidth + "px";
+                        f.style.height = t.clientHeight + "px";
+
+                        f.classList.add("on-focus");
+                    } else {
+                        move(c, e);
+                        move(f, e);
+                        f.classList.remove("on-focus");
+                    }
+                });
+            }
+            function butPressed() {
+                    document.getElementById("myButton2").value="me@zachvaters.com"; 
+
+                }
     
-    <script>
-
-        function pressed() {
-            let text = document.getElementById("inp").value;
-            if (text === "red" || text == "Red") {
-                document.getElementById("header").style.color = "red";
-            }
-            else if (text === "green" || text == "Green") {
-                document.getElementById("header").style.color = "green";
-            }
-            else if (text === "blue" || text == "Blue") {
-                document.getElementById("header").style.color = "blue";
-            }
-            else if (text === "purple" || text == "Purple") {
-                document.getElementById("header").style.color = "purple";
-            }
-            else if (text === "yellow" || text == "Yellow") {
-                document.getElementById("header").style.color = "yellow";
-            }
-
-
-        }
-    </script>
-</body>
-
+        </script>
+    </body>
 </html>
