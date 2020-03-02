@@ -2,6 +2,7 @@
 html,
 body {
     display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -10,14 +11,23 @@ body {
     overflow: hidden;
 }
 
+
 body {
     display: flex;
-    flex-shrink: 1;
+    flex-shrink: 0.5;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
 }
+h1 {
+    color: rgb(156, 4, 4);
+    border-radius: 1cm;
+    border-color:black;
 
+    
+    
+    
+}
 .cursor,
 .follow {
     position: absolute;
@@ -60,8 +70,11 @@ body {
     text-transform: uppercase;
     font-weight: lighter;
     color: rgb(156, 4, 4);
+    text-decoration: none;
+    
 }
 
 .button:hover {
     color: rgb(255, 254, 254);
 }
+
