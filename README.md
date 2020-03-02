@@ -1,3 +1,4 @@
-# [My Website](https://www.zachvaters.com)
+# [Zachvaters.com](https://www.zachvaters.com)
 
-* It's a work in progress :)
+**Personal Project**
+    Lots to be completed!
