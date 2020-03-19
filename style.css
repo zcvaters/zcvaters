@@ -5,7 +5,7 @@
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
-    --transition-speed: 600ms;
+    --transition-speed: 1000ms;
   }
  
   body {
@@ -36,7 +36,7 @@
   .navbar {
     position: left;
     background-color: var(--bg-primary);
-    transition: width 1000ms ease;
+    transition: width 500ms ease;
   }
   
   .navbar-nav {
@@ -218,4 +218,11 @@
   
   .solar #solarIcon {
     display: block;
+  }
+
+  .bio {
+    font-size:72px;
+    font-family: sans-serif;
+    left: 500px;
+
   }
