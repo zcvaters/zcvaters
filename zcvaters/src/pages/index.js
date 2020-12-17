@@ -1,7 +1,12 @@
-import React from "react"
-import Link from "gatsby-link"
+import React from 'react'
 
-export default () => <div>
-  <h1>Page 1</h1>
-  <Link to="/page-2/">Page 2</Link>
-</div>
+const IndexPage = () => {
+  return (
+    <div>
+      <h1>Hello,</h1>
+      <h2>I'm Zach, a CS student in Newfoundland Canada.</h2>
+    </div>
+  )
+}
+
+export default IndexPage
