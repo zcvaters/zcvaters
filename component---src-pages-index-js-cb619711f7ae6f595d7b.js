@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),c=a.n(t),r=a("+ZDr"),l=a.n(r);n.default=function(){return c.a.createElement("div",null,c.a.createElement("h1",null,"Page 1"),c.a.createElement(l.a,{to:"/page-2/"},"Page 2"))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-cb619711f7ae6f595d7b.js.map
