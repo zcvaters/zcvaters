@@ -1,11 +1,15 @@
 import React from 'react'
+import Footer from '../components/footer'
+import Header from '../components/header'
 
 const IndexPage = () => {
   return (
-    <div>
-      <h1>Hello,</h1>
-      <h2>I'm Zach, a CS student in Newfoundland Canada.</h2>
-    </div>
+      <div>
+        <Header />
+        <h1>Hello,</h1>
+        <h2>I'm Zach, a CS student in Newfoundland Canada.</h2>
+        <Footer />
+      </div>
   )
 }
 
