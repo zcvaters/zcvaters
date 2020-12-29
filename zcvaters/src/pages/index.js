@@ -1,7 +1,16 @@
-import React from "react"
-import Link from "gatsby-link"
+import React from 'react'
+import Footer from '../components/footer'
+import Header from '../components/header'
 
-export default () => <div>
-  <h1>Page 1</h1>
-  <Link to="/page-2/">Page 2</Link>
-</div>
+const IndexPage = () => {
+  return (
+      <div>
+        <Header />
+        <h1>Hello,</h1>
+        <h2>I'm Zach, a CS student in Newfoundland Canada.</h2>
+        <Footer />
+      </div>
+  )
+}
+
+export default IndexPage
