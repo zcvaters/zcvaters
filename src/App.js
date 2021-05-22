@@ -1,12 +1,22 @@
 import React from 'react';
-import { Header } from './components/common'
+import { Header, Home, About, Portfolio, Contact, Blog } from './components/common'
+import { Switch, Route, withRouter } from 'react-router-dom'
 
-import './App.css';
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div>
+        <Header />
+      </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/contact" component={Contact} />
+      </Switch>
     </div>
   );
 }
