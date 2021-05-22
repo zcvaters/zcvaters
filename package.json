@@ -1,6 +1,6 @@
 {
   "name": "zcvaters-app",
-  "homepage": "https://zcvaters.github.io/zcvaters",
+  "homepage": "https://zcvaters.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
