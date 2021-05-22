@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zcvaters/zcvaters.git/static/css/main.d58a913f.chunk.css",
+    "main.js": "/zcvaters/zcvaters.git/static/js/main.71029e16.chunk.js",
+    "main.js.map": "/zcvaters/zcvaters.git/static/js/main.71029e16.chunk.js.map",
+    "runtime-main.js": "/zcvaters/zcvaters.git/static/js/runtime-main.6b29fb36.js",
+    "runtime-main.js.map": "/zcvaters/zcvaters.git/static/js/runtime-main.6b29fb36.js.map",
+    "static/js/2.46cf4889.chunk.js": "/zcvaters/zcvaters.git/static/js/2.46cf4889.chunk.js",
+    "static/js/2.46cf4889.chunk.js.map": "/zcvaters/zcvaters.git/static/js/2.46cf4889.chunk.js.map",
+    "index.html": "/zcvaters/zcvaters.git/index.html",
+    "static/css/main.d58a913f.chunk.css.map": "/zcvaters/zcvaters.git/static/css/main.d58a913f.chunk.css.map",
+    "static/js/2.46cf4889.chunk.js.LICENSE.txt": "/zcvaters/zcvaters.git/static/js/2.46cf4889.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/zcvaters/zcvaters.git/static/media/Roboto-Thin.c38fab23.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b29fb36.js",
+    "static/js/2.46cf4889.chunk.js",
+    "static/css/main.d58a913f.chunk.css",
+    "static/js/main.71029e16.chunk.js"
+  ]
+}
