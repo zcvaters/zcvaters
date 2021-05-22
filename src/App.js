@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Home, About, Portfolio, Contact, Blog } from './components/common'
-import { Switch, Route, withRouter } from 'react-router-dom'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
 
 import "./App.css"
 
@@ -9,10 +9,11 @@ const { PUBLIC_URL } = process.env;
 function App() {
   return (
     <div className="App">
+      <BrowserRouter basename={PUBLIC_URL}>
       <div>
         <Header />
       </div>
-      <BrowserRouter basename={PUBLIC_URL}>
+      
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
