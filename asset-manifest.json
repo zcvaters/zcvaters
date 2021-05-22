@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/zcvaters/static/css/main.226c951e.chunk.css",
-    "main.js": "/zcvaters/static/js/main.71029e16.chunk.js",
-    "main.js.map": "/zcvaters/static/js/main.71029e16.chunk.js.map",
+    "main.css": "/zcvaters/static/css/main.1315bbb6.chunk.css",
+    "main.js": "/zcvaters/static/js/main.d5a250a2.chunk.js",
+    "main.js.map": "/zcvaters/static/js/main.d5a250a2.chunk.js.map",
     "runtime-main.js": "/zcvaters/static/js/runtime-main.6f4be108.js",
     "runtime-main.js.map": "/zcvaters/static/js/runtime-main.6f4be108.js.map",
-    "static/js/2.46cf4889.chunk.js": "/zcvaters/static/js/2.46cf4889.chunk.js",
-    "static/js/2.46cf4889.chunk.js.map": "/zcvaters/static/js/2.46cf4889.chunk.js.map",
+    "static/js/2.be8d8ba2.chunk.js": "/zcvaters/static/js/2.be8d8ba2.chunk.js",
+    "static/js/2.be8d8ba2.chunk.js.map": "/zcvaters/static/js/2.be8d8ba2.chunk.js.map",
     "index.html": "/zcvaters/index.html",
-    "static/css/main.226c951e.chunk.css.map": "/zcvaters/static/css/main.226c951e.chunk.css.map",
-    "static/js/2.46cf4889.chunk.js.LICENSE.txt": "/zcvaters/static/js/2.46cf4889.chunk.js.LICENSE.txt",
+    "static/css/main.1315bbb6.chunk.css.map": "/zcvaters/static/css/main.1315bbb6.chunk.css.map",
+    "static/js/2.be8d8ba2.chunk.js.LICENSE.txt": "/zcvaters/static/js/2.be8d8ba2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/zcvaters/static/media/Roboto-Thin.c38fab23.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.6f4be108.js",
-    "static/js/2.46cf4889.chunk.js",
-    "static/css/main.226c951e.chunk.css",
-    "static/js/main.71029e16.chunk.js"
+    "static/js/2.be8d8ba2.chunk.js",
+    "static/css/main.1315bbb6.chunk.css",
+    "static/js/main.d5a250a2.chunk.js"
   ]
 }
